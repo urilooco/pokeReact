@@ -1,0 +1,44 @@
+.Container{
+    width: 600px;
+    margin: 10%;
+    display: block;
+    font-family: "Inter", sans-serif;
+}
+
+.Container-LogoPokemon{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.LogoPokemon{
+    width: 35%;
+}
+
+.SearchInput{
+    width: 65%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.SearchButton{
+    border-radius: 10px;
+    border: solid;
+    width: 65%;
+    height: 35px;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.Results{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.Card-image{
+    width: 150px;
+}

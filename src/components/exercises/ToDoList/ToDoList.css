@@ -1,0 +1,75 @@
+#Container{
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+
+.Task {
+  border: 1pt solid lightgray;
+  padding-top: 10px;
+}
+
+.Task-done {
+  color: green;
+}
+
+.First-section{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.Initial-input{
+  height: 25px;
+  padding-left: 10px;
+}
+
+.Button-add{
+  width: 75px;
+  background-color: green;
+  color: white;
+  border: solid 1px;
+  margin-left: 5px;
+}
+
+.Second-section{
+  border: solid 1px grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Word-added{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.Buttons-actions{
+  display: flex;
+  justify-content: center;
+}
+
+.Input-edit{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Edit-button{
+  background-color: yellow;
+  padding: 5px;
+  border: solid yellow;
+}
+.Delete-button{
+  background-color: red;
+  padding: 5px;
+  border: solid red;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Complete-button{
+  background-color: yellowgreen;
+  padding: 5px;
+  border: solid yellowgreen;
+}
