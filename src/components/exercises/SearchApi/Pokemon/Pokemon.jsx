@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import { PropTypes } from "prop-types";
-import { searchPokemon } from "../../../../utils/pokeApi";
-import errorImage from "../../../../assets/images/arkus_logo.png";
+import React from "react";
+import './Pokemon.css'
 
 const PokemonContainer = (props) => {
   let pokemonName = props.name;
@@ -16,20 +14,26 @@ const PokemonContainer = (props) => {
   }
 
   return (
-    <div>
-      <div>
-        <button onClick={props.onChangeType}>{
+    <div >
+      <div className="Pokemon-container">
+        <button  onClick={props.onChangeType} className="Button-pokemon">{
             props.shiny ? 'Switch to regular' : 'Switch to shiny'
         }</button>
+      </div>
+      <div>
         <img
           className="Card-image"
           src={pokemonImage}
+          alt="Pokemon "
         />
-        <h2>{pokemonName}</h2>
-        <button onClick={props.onFlip}>{
+        <h2 className="Pokemon-container">{pokemonName}</h2>
+      </div>
+      <div className="Pokemon-container">
+        <button onClick={props.onFlip} className="Button-pokemon">{
             props.front ? 'Back' : 'Front'
         }</button>
       </div>
+      
     </div>
   );
 };

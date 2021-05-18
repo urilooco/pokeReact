@@ -1,8 +1,8 @@
 .Container{
     width: 600px;
-    margin: 10%;
     display: block;
     font-family: "Inter", sans-serif;
+    margin-left: 10%;
 }
 
 .Container-LogoPokemon{
@@ -38,7 +38,4 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
-}
-.Card-image{
-    width: 150px;
 }

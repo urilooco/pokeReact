@@ -1,0 +1,17 @@
+.Button-pokemon{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: solid 1px blue;
+    border-radius: 5px;
+}
+
+.Pokemon-container{
+    display: flex;
+    justify-content: center;
+}
+.Card-image{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
